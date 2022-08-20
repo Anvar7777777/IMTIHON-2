@@ -1,0 +1,123 @@
+.media-table{
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    margin-top: 72px;
+        .social-media-table{
+            margin-bottom: 44px;
+            margin-right: 200px;
+        }
+        .media-table-text1{
+            font-family: 'PT Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 150%;
+            color: #6B6B6C;
+            margin-bottom: 8px;
+            margin-left: 36px;
+        }
+        .media-table-text2{
+            font-family: 'Exo 2';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+            color: #363738;
+            margin-left: 60px;
+        }
+
+        table{
+            width: 80%;
+            height: 403px;
+            // margin-left: 20px;
+            background: #F9F9FB;
+            border-radius: 5px;
+        }
+        th{
+            font-family: 'PT Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 125%;      
+            color: #6B6B6C;    
+            padding-right: 190px;  
+            border: 1px solid #E9EAF2;     
+        }
+        td{
+            font-family: 'Exo 2';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 125%;
+            color: #363738;
+            border: 1px solid #E9EAF2;  
+        }
+}
+
+
+.main-finish-text{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%; 
+    color: #6B6B6C; 
+    width: 848px;
+    height: 65px; 
+    margin-left: 150px;
+    margin-top: 32px;
+    margin-bottom: 40px; 
+}
+
+.finishing-video{
+    width: 700px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+}
+
+
+@media only screen and (max-width: 768px){
+    .media-table{
+        display: inline-block;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        
+        margin-top: 79px;
+            .media-table-universe{
+                width: 90%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+    
+            table{
+                width: 90%;
+                margin-left: auto;
+                margin-right: auto;
+                height: 368px;
+                // margin-left: 20px;
+                background: #F9F9FB;
+                border-radius: 5px;
+            }
+    }
+    .main-finish-text{
+        width: 690px;
+        height: 89px; 
+        margin-left: 39px;
+        margin-top: 32px;
+        margin-bottom: 48px; 
+    }
+    
+    .finishing-video{
+        width: 700px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+    }
+}

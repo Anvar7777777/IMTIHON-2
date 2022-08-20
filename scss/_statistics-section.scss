@@ -1,0 +1,150 @@
+.statistics-main-titles{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    .working-type{
+        font-family: 'Exo 2';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 125%;
+        color: #363738; 
+        // margin-left: 100px; 
+        margin-top: 100px;  
+    }
+    .working-type-answer{
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #6B6B6C;
+        // margin-left: 100px;
+        margin-top: 32px;
+        margin-bottom: 40px;
+        width: 667px;
+    }
+}
+
+
+.checkbox-information{
+    display: flex;
+    width: 87%;
+    margin-left: auto;
+    margin-right: auto;
+        .checkbox-first{
+            width: 687px;
+            height: 176px;
+            background: #FFFFFF;
+            box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.12);
+            border-radius: 10px;
+            padding: 40px 0 48px 40px;
+            margin-bottom: 16px;
+        }
+        .checkbox-second{
+            width: 687px;
+            height: 176px;
+            background: #FFFFFF;
+            box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.12);
+            border-radius: 10px;
+            padding: 40px 0 48px 40px;
+            margin-bottom: 16px;
+        }
+        .checkbox-three{
+            width: 687px;
+            height: 176px;
+            background: #FFFFFF;
+            box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.12);
+            border-radius: 10px;
+            padding: 40px 0 48px 40px;
+        }
+        .checkbox-label{
+            font-family: 'Exo 2';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 150%;         
+            color: #363738;  
+                   
+        }
+        .checkbox-paragraph{
+            width: 466px;
+            height: 42px;
+            font-family: 'PT Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+            color: #6B6B6C;   
+            padding-left: 20px;         
+        }
+    .statistics{
+        margin-left: 140px;
+            .statistics-text1{
+                font-family: 'Exo 2';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 150%;
+                color: #363738;      
+                margin-bottom: 8px;          
+            }
+            .statistics-span1{
+                font-family: 'Exo 2';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 54px;
+                line-height: 150%;       
+                letter-spacing: 0.3em;
+                color: #363738;
+            }
+            .statistics-span2{
+                font-family: 'Exo 2';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 30px;       
+                color: #363738;
+            }
+            .statistics-line{
+                margin-top: 39px;
+                height: 0;
+                width: 281px;
+                border: 3px solid #FFCE50;
+            }
+    }    
+}
+
+
+@media only screen and (max-width: 768px){
+    .statistics-main-titles{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .statistics{
+        display: none;
+    }
+    .working-type{
+        font-family: 'Exo 2';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 125%;
+        color: #363738; 
+        // margin-left: 100px; 
+        margin-top: 100px;  
+    }
+    .working-type-answer{
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #6B6B6C;
+        // margin-left: 100px;
+        margin-top: 32px;
+        margin-bottom: 40px;
+        width: 667px;
+    }
+}

@@ -1,0 +1,168 @@
+.truck-middle{
+    margin-top: 100px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.money-information{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(2, 500px);
+    grid-template-rows: repeat(2, 200px);
+    margin-top: 72px;
+
+    .lock-lorem1{
+        font-family: 'Exo 2';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 135%;
+        color: #363738;  
+        margin-bottom: 16px;      
+    }
+    .lock-lorem2{
+        width: 291px;
+        height: 41px;
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #6B6B6C;
+    }
+    .money-lock{
+        display: flex;
+    }
+    .money-images{
+        width: 80px;
+        height: 80px;
+        margin-right: 40px;
+    }
+}
+
+
+.work-prices{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(3, 393px);
+    grid-template-rows: repeat(1, 439px);
+       .work-prices-bunker{
+            background: #FFFFFF;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.12);
+            border-radius: 10px;
+        } 
+        .work-price-text1{
+            margin: 24px 34px 16px 24px;
+            font-family: 'Exo 2';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 135%;      
+            color: #363738;
+        }
+        .work-price-text2{
+            margin: 24px 34px 16px 24px;
+            font-family: 'PT Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+            color: #6B6B6C;            
+        }
+        .work-price-text3{
+            margin: 24px 34px 0px 24px;
+            font-family: 'Exo 2';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 135%;      
+            color: #363738;            
+        }
+        .work-price-line{
+            margin: 6px 34px 32px 24px;
+            border: 3px solid #FFCE50;
+            width: 86px;
+        }
+        .price-bunker-media-img1{
+            display: none;
+        }
+}
+
+
+@media only screen and (max-width: 768px){
+    .money-information{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        // justify-content: center;
+        // align-content: center;
+        grid-template-columns: repeat(1, 700px);
+        grid-template-rows: repeat(4, 200px);
+        margin-top: 55px;
+    
+        .lock-lorem2{
+            width: 394px;
+            height: 41px;
+        }
+        .money-lock{
+            display: flex;
+        }
+        .money-images{
+            width: 88px;
+            height: 88px;
+            margin-right: 39px;
+        }
+    }
+
+    .work-prices{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        // justify-content: space-evenly;
+        grid-template-columns: repeat(1, 690px);
+        grid-template-rows: repeat(2, 500px);
+           .work-prices-bunker{
+                background: #FFFFFF;
+                box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.12);
+                border-radius: 10px;
+                margin-bottom: 32px;
+            } 
+            // .work-prices-bunker img{
+            //     background-size: cover;
+            //     background-repeat: no-repeat;
+            // }
+            .work-price-text1{
+                margin: 24px 34px 16px 32px;
+                font-size: 20px;
+            }
+            .work-price-text2{
+                margin: 24px 34px 32px 32px;           
+            }
+            .work-price-text3{
+                margin: 24px 34px 0px 32px;           
+            }
+            .work-price-line{
+                margin: 6px 34px 32px 32px;
+            }
+            .price-bunker-media-img2{
+                display: none;
+            }
+            .price-bunker-media-img1{
+                display: block;
+            }
+            .work-price-bunker-hidden{
+                display: none;
+            }
+    }
+    
+}
